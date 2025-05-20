@@ -1,0 +1,9 @@
+{
+  "name": "OLX Scraper",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/chrome:1": {},
+    "ghcr.io/devcontainers/features/chromedriver:1": {}
+  },
+  "postCreateCommand": "pip install selenium"
+}
